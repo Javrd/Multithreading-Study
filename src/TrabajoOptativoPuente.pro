@@ -15,4 +15,11 @@ CONFIG   -= app_bundle
 TEMPLATE = app
 
 
-SOURCES += main.cpp
+SOURCES += \
+    puente.cpp \
+    main.cpp \
+    vehiculo.cpp
+
+HEADERS += \
+    puente.h \
+    vehiculo.h
